@@ -2,30 +2,36 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
 ## 几个常用的命令
 
     npm -i --save packageName  // 软件依赖
 
     npm -i --save-dev packageName  // 开发依赖
+
+    ng new projectName  // 新建Angular项目
+
+    ng build -prod  // 生产环境编译
+
+    ng serve  // 启动开发服务器
+
+## Mock Rest API
+
+json-server: 用于快速搭建 REST API 的利器
+
+    npm install -g json-server
+
+## taskmgr
+
+    ng new taskmgr -si --style=scss
+
+    cd taskmgr
+
+    npm install
+
+    ng g m core  // 创建核心模块（在系统中只加载一次）
+
+    ng g m shared  // 创建共享模块
+
+    ng g c core/header --spec=false
+
+    npm install --save @angular/material@2.0.0-beta.7
