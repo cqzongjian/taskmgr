@@ -35,3 +35,7 @@ json-server: 用于快速搭建 REST API 的利器
     ng g c core/header --spec=false
 
     npm install --save @angular/material@2.0.0-beta.7
+    
+    npm install --save date-fns
+    
+    npm install --save-dev @types/date-fns
