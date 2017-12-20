@@ -39,3 +39,6 @@ json-server: 用于快速搭建 REST API 的利器
     npm install --save date-fns
     
     npm install --save-dev @types/date-fns
+    
+    ## 注册组件
+    ng g c login/register --spec=false
