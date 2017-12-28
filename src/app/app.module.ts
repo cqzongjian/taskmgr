@@ -6,6 +6,7 @@ import { LoginModule } from './login/login.module';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ProjectModule } from './project/project.module';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule,
     SharedModule,
     LoginModule,
+    ProjectModule,
     CoreModule
   ],
   providers: [],

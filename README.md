@@ -42,3 +42,13 @@ json-server: 用于快速搭建 REST API 的利器
     
     ## 注册组件
     ng g c login/register --spec=false
+    
+    ng g m project
+    
+    ng g c project/project-list --spec=false
+    
+    ng g c project/project-item --spec=false
+    
+    ng g c project/new-project --spec=false
+    
+    ng g c project/invite --spec=false

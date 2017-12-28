@@ -9,7 +9,8 @@ import {
   MdInputModule,
   MdListModule,
   MdSlideToggleModule,
-  MdGridListModule
+  MdGridListModule,
+  MdDialogModule,
 } from '@angular/material';
 
 @NgModule({
@@ -23,7 +24,8 @@ import {
     MdInputModule,
     MdListModule,
     MdSlideToggleModule,
-    MdGridListModule
+    MdGridListModule,
+    MdDialogModule,
   ],
   exports: [
     CommonModule,
@@ -35,7 +37,8 @@ import {
     MdInputModule,
     MdListModule,
     MdSlideToggleModule,
-    MdGridListModule
+    MdGridListModule,
+    MdDialogModule,
   ],
   declarations: []
 })
