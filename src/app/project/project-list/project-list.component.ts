@@ -23,10 +23,14 @@ export class ProjectListComponent implements OnInit {
   ];
 
   constructor(private dialog: MdDialog) {
-    this.dialog.open(NewProjectComponent);
   }
 
   ngOnInit() {
+  }
+
+  openNewProjectDialog() {
+    const dialogRef = this.dialog.open(NewProjectComponent, {data: {'name': '建哥'}});
+    dialogRef.afterClosed().subscribe(result => console.log(result));
   }
 
 }

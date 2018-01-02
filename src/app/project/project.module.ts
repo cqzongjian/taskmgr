@@ -18,7 +18,8 @@ import { ProjectRoutingMoudule } from './project-routing.moudule';
     InviteComponent,
   ],
   entryComponents: [
-    NewProjectComponent
+    NewProjectComponent,
+    InviteComponent,
   ]
 })
 export class ProjectModule { }
