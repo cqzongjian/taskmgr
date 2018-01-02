@@ -15,7 +15,7 @@ import { ProjectRoutingMoudule } from './project-routing.moudule';
     ProjectListComponent,
     ProjectItemComponent,
     NewProjectComponent,
-    InviteComponent
+    InviteComponent,
   ],
   entryComponents: [
     NewProjectComponent
